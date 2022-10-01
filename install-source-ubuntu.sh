@@ -3,8 +3,8 @@
 sudo apt-get update
 sudo apt-get install -y build-essential
 # 2) Install Miniconda3
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64.sh
+sh Miniconda3-py38_4.10.3-Linux-x86_64.sh
 export CONDAPATH="$(pwd)/miniconda3"
 export PYTHON="$(pwd)/miniconda3/envs/hummingbot/bin/python3"
 # INSTALL HUMMINGBOT
